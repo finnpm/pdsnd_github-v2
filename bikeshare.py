@@ -83,7 +83,6 @@ while show_more == 'y':
    show_more = input("\nWould you like to show more? (y or n) ")
 
 
-
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
