@@ -17,6 +17,6 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-To all python people out there!
+To all python people out there! XXXx
 Thanks to Python Panda Basic Functionality at www.tutorialspoint.com
 ilock hints from https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/ made my day solving the problem showing tabel five row at a time
