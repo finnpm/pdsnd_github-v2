@@ -16,8 +16,6 @@ print('Would you like to se data for Chicago,New York City or Washington?')
 citya = input('Give me your city:  ')
 city =  citya.lower()
 
-
-
     # TO DO: get user input for month (all, january, february, ... , june)
 print('Would you like to filter the data by month, day, both or not at all? Type "all" for no time filter.')
 print('Which month? January, February, March, April, May or June?')
