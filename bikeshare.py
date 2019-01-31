@@ -1,12 +1,12 @@
-import time
+#import time
 import pandas as pd
-import numpy as np
+#import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
-def get_filters():chicago
+#def get_filters():chicago
 
 print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
@@ -160,7 +160,7 @@ if 'Birth Year' in df:
     avg_age = df['Birth Year'].mean()
     print('Oldest DOB is:', int(oldest))
     print('The youngest DOB is:', int(youngest))
-    print('Avg DOB is:', avg_age.round(2))
+    print('Avg DOB is:', round(avg_age,2))
 else:
          #do nothing
         print('Table has no Birth Year.')
@@ -182,4 +182,4 @@ def main():
 
 
 if __name__ == "__main__":
-	main()
+    main()
